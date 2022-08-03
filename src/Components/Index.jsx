@@ -10,7 +10,7 @@ export {default as ThemeSettings} from './ThemeSettings'
 export {default as UserProfile} from './UserProfile'
 export {default as Navbar } from './Navbar' 
 
-export {default as Line } from '../Components/Charts/Line' 
+export {default as LineChart } from './Charts/LineChart' 
 export {default as Pie } from '../Components/Charts/Pie' 
 export {default as SparkLine } from '../Components/Charts/SparkLine' 
 export {default as Stacked } from '../Components/Charts/Stacked' 

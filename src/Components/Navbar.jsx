@@ -62,13 +62,11 @@ const Navbar = () => {
         <TooltipComponent content="Profile" position="BottomCenter">
           <div
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
-            onClick={() => handleClick('userProfile')}
-          >
+            onClick={() => handleClick('userProfile')}>
             <img
               className="rounded-full w-8 h-8"
               src={avatar}
-              alt="user-profile"
-            />
+              alt="user-profile"/>
             <p>
               <span className="text-gray-400 text-14">Hi,</span>{' '}
               <span className="text-gray-400 font-bold ml-1 text-14">
